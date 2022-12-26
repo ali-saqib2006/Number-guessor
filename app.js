@@ -10,9 +10,9 @@ play again
 
 //game values
 let min = 1,
-    max = 100,
+    max = 10,
     winningNum = getRandomNum(max),
-    guessesLeft = 5;
+    guessesLeft = 3;
 
 
 const game = document.getElementById('game'),
